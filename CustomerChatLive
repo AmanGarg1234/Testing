@@ -1,0 +1,33 @@
+<html>
+<body>
+<a id="liveagent_button_online_5732w000000UkNk" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5732w000000UkNk')">
+Online Chat Content
+</a>
+<div id="liveagent_button_offline_5732w000000UkNk" style="display: none;">
+Offline Chat Content
+</div>
+<script type="text/javascript">
+if (!window._laq) 
+{ 
+window._laq = []; 
+}
+window._laq.push(
+function(){
+liveagent.showWhenOnline(
+'5732w000000UkNk', 
+document.getElementById('liveagent_button_online_5732w000000UkNk')
+);
+liveagent.showWhenOffline(
+'5732w000000UkNk', 
+document.getElementById('liveagent_button_offline_5732w000000UkNk')
+);
+}
+);
+</script>
+
+<script type='text/javascript' src='https://c.la2-c2-hnd.salesforceliveagent.com/content/g/js/56.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la2-c2-hnd.salesforceliveagent.com/chat', '5722w000000UhUN', '00D2w00000KLQDs');
+</script>
+</body>
+</html>
